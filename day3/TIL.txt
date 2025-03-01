@@ -1,0 +1,49 @@
+Loops 
+Loops in programming are used to repeat a block of code until the specified condition is
+satisified. 
+A loop statement allows programmers to execute a statement or group of statements 
+multiple times without repetition of code.
+ 
+ Loops types:-
+1.for loop:
+In this loop first Initialization is done, then condition will be checked, 
+then executes the body and at last, the updation  is done.
+
+-->Syntax
+for (initialize expression; test expression; update expression)
+{
+    //
+    // body of for loop
+    //
+}
+
+2.while looop:In this loop the execution is terminated on the basis of the test condition.
+If the test condition will become false then it will break from the  while loop or
+else body will be executed.
+
+-->Syntax
+initialization_expression;
+
+while (test_expression)
+{
+    // body of the while loop
+    
+    update_expression;
+}
+
+3.do while loop:This loop is similar to a while loop but the only difference lies in the do-while 
+loop test condition which is tested at the end of the body. 
+In the do-while loop, the loop body will executed and then it checks the test condition.
+
+-->Syntax
+
+initialization_expression;
+do
+{
+    // body of do-while loop
+    
+    
+    update_expression;
+
+} while (test_expression);
+
