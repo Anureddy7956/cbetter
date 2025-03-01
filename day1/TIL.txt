@@ -1,0 +1,11 @@
+Variables are the name given to the memory location and store some form of data
+SYNTAX--> data_type variable_name;
+Example:- int a;
+
+Valid variable naming
+--> A variable naming must start with an alphabet   ex:- int number
+--> A variable naming can start with an underscore ex:- char _operator 
+
+Invalid naming
+--> A variable naming shouldn't start with any number ex:- int 123num   
+--> A variable naming shouldn't start with any special character ex:- int $num
