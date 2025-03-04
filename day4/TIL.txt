@@ -1,0 +1,43 @@
+Functions:-
+A function is a block of code which only runs when it is called.
+We can pass data, known as parameters, into a function.
+
+Syntax
+void myFunction() {
+  // code to be executed
+}
+
+Calling a function:
+Declared functions are not executed immediately.
+They are saved, and will be executed when they are called.
+
+Parameters and Arguments:
+Parameters act as variables inside the function.
+
+Syntax
+returnType functionName(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+-> When a parameter is passed to the function, it is called an argument.
+
+Function Declaration and Definition:-
+
+A function consist of two parts:
+
+    Declaration: the function's name, return type, and parameters 
+    Definition: the body of the function
+
+// Function declaration
+void myFunction();
+
+// The main method
+int main() {
+  myFunction();  // call the function
+  return 0;
+}
+
+// Function definition
+void myFunction() {
+  printf("I'm exhausted!");
+}
+
