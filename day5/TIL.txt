@@ -1,0 +1,2 @@
+Recursions:-
+The function which call itself is called recursion.
