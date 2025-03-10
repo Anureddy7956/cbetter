@@ -1,0 +1,9 @@
+Arrays:-
+Arrays are used to store multiple values in single variable.
+ ex: int myNumbers[] = {25, 50, 75, 100};
+Array indexes start with 0: [0] is the first element. [1] is the second element
+
+To get the size of an array, you can use the sizeof operator %lu
+
+There is a formula to find out how many elements in an array 
+int length = sizeof(whole array) / sizeof(0th index[0])
