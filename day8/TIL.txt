@@ -1,0 +1,28 @@
+Strings:-
+Strings are used for storing text/characters.
+char string[] = "Hello World!";
+C does not have a String type to easily create string variables,we must use char
+we must use double quotation marks " "
+The format specifier "%s"
+Note: To print a single character we have to use "%c" 
+
+Another Way Of Creating Strings:-
+char greetings[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '\0'};
+printf("%s", greetings);
+Note:- While using this method we have to add the null treminating '\0' It tells
+that end of the string
+
+String Functions:-
+To use string functions, we must include the <string.h> header file in our program.
+
+String Length:
+To get the length of a string, we can use the strlen() function
+
+Concatenate Strings:
+To concatenate (combine) two strings,we can use the strcat() function
+
+Copy Strings:
+To copy the value of one string to another,we can use the strcpy() function
+
+Compare Strings:
+To compare two strings,we can use the strcmp() function s
