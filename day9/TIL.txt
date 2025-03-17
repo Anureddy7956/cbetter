@@ -1,0 +1,4 @@
+Pointers:-
+A pointer is a variable that stores the memory address of another variable.
+The format specifier is %pointer
+We use & to print the address
