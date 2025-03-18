@@ -1,0 +1,4 @@
+Structures:-
+Structures also called structs.
+Structures are a way to group several related variables into one place.
+A structure can contain many different data types (int, float, char, etc.)
